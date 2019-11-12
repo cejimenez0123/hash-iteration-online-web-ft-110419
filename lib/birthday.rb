@@ -13,7 +13,7 @@ end
 
 def age_appropriate_birthday(birthday_kids)
   birthday_kids.each do |kids_name,age|
-    if kids_name[age] > 12
+    if age > 12
       return nil
     else happy_birthday(kids_name)
     end
